@@ -1,0 +1,159 @@
+#If-Else Basic
+1)Write a program to check if a number is positive or negative
+n=int(input("enter the number:"))
+if n >0:
+    print("positive integer")
+else:
+    print("negative integer")
+
+
+2)Check if a number is even or odd:
+n=int(input("enter the number:"))
+if n%2==0:
+    print("even number")
+else:
+    print("odd number")
+
+
+
+3)Determine if a person is eligible to vote (age >= 18):
+age=int(input("enter the age:"))
+if age>=18:
+    print("you are eligible for vote")
+else:
+    print("you are not eligible for vote")
+
+
+
+
+4)Check if a given number is zero, positive, or negative:
+n=int(input("enter the number"))
+if n>0:
+    print("positive number")
+elif n==0:
+    print("zero")
+else:
+    print("negative number")
+
+
+
+5)Determine if a number is a multiple of 3:
+s=int(input("enter the number"))
+if s%3==0:
+    print("divisible by 3")
+else:
+    print("not div by 3")
+
+
+
+6)Take a number as input and print "Yes" if it is greater than 10, else print "No":
+s=int(input("enter the number"))
+if s>10:
+    print("yes")
+else:
+    print("No")
+
+
+
+7)Check if a character is a vowel or a consonant:
+s=input("enter the letter:")
+if s=="a" or s=="e" or s=="i" or s=="o" or s=="u":
+    print("vowel")
+else:
+    print("consonant")
+
+
+
+8)Determine if a number is a single-digit number:
+a=int(input("enter the digit"))
+if abs(a>0) and abs(a<=9):
+    print("single digit")
+else:
+    print("not a single digit")
+
+
+
+9)Find the greatest of two numbers:
+n=int(input("enter 1st number:"))
+m=int(input("enter 2nd number:"))
+if n>m:
+    print("1st number is greater")
+else:
+    print("2nd number is greater")
+
+
+
+10)Check if a given number is divisible by both 5 and 11:
+a=int(input("enter the number"))
+if a%5==0 and a%11==0:
+    print("divisible by both 5 and 11")
+else:
+    print("Not divisible")
+
+
+
+11)Check if a character is an uppercase or lowercase letter:
+s=input("enter the character:")
+if s.isupper():
+    print("upper case")
+else:
+    print("lower case")
+
+
+
+12)Check if a number is within the range of 1 to 100:
+n=int(input("enter the number:"))
+if n in range(1, 100):
+    print("Yes, it is from 1 to 100")
+else:
+    print("No, it is not from 1 to 100")
+
+
+
+13)Write a program to determine if a given year is a leap year:
+a=int(input("enter the number:"))
+if a%4==0:
+    print("this is a leap year")
+else:
+    print("this is not a leap year") 
+
+
+    
+14)Check whether a triangle is valid based on its three sides:
+m=int(input("enter 1st number"))
+n=int(input("enter 2nd number"))
+o=int(input("enter 3rd number"))
+if (m+n<=o)or(m+o<=n)or(n+o<=m): 
+    print("triangle is valid")
+else:
+    print("triangle is not valid")
+
+
+
+
+
+15)Given the length and breadth of a rectangle, determine if it is a square:
+l=int(input("enter the length"))
+b=int(input("enter the breadth"))
+if l==b:
+    print("Square")
+else:
+    print("Not a Square")
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
